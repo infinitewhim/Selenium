@@ -21,7 +21,7 @@ public class SPSAuto {
 
   @Before
   public void setUp() throws Exception {
-	System.setProperty("webdriver.chrome.driver","C:/Users/I328340/Desktop/chromedriver_win32/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:/chromedriver.exe");
 	  //System.setProperty("webdriver.gecko.driver","C:/geckodriver.exe");
 	driver = new ChromeDriver();
 
